@@ -16,11 +16,13 @@ We made it based on Arduino Uno system.
 
 Hardware 1: main unit
 
-![hardware1_control_circuit](https://github.com/user-attachments/assets/d71383a7-0417-4138-b8b4-0c871924c5bd)
+![hardware1_control_circuit](https://github.com/user-attachments/assets/38df75d0-62d3-4837-b71a-f3c39c38f60d)
+
 
 Hardware 2: Door attached unit
 
-![hardware2_control_circuit](https://github.com/user-attachments/assets/d893ad3f-bcad-49dd-b210-21efe64160b1)
+![hardware2_control_circuit](https://github.com/user-attachments/assets/f78bc91c-d047-4afa-96fd-4e11c95140ea)
+
 
 **Requirements**
 
