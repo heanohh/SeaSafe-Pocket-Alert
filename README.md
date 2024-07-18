@@ -6,11 +6,20 @@ We made it based on Arduino Uno system.
 
 ![SeaSafePocketAlert1](https://github.com/user-attachments/assets/435e6848-2c3a-4cf4-b9a9-457374094098)
 ![SeaSafePocketAlert3](https://github.com/user-attachments/assets/7b76768b-193e-4f8c-ab5b-2980f9de04e2)
+
+**Hardware1**
+
 ![main_hardware1](https://github.com/user-attachments/assets/27b79f2c-c140-407b-9446-b8bf66480b84)
+
+**Hardware2**
+
+![KakaoTalk_20240717_223137523](https://github.com/user-attachments/assets/9839457e-5ddb-4af2-aa31-fc247c110f04)
+
 
 **Flowchart**
 
 ![flowchart](https://github.com/user-attachments/assets/90a78e13-d67d-47eb-9d28-c3e0a643f52d)
+
 
 **Circuit**
 
