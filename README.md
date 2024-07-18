@@ -25,7 +25,8 @@ We made it based on Arduino Uno system.
 
 Hardware 1: main unit
 
-![hardware1_control_circuit](https://github.com/user-attachments/assets/62b2c38a-d269-4c29-a6cf-c7da1b597c80)
+![KakaoTalk_20240718_154737551](https://github.com/user-attachments/assets/4b043c82-1d73-46d5-bd61-f322f3b27fbf)
+
 
 
 Hardware 2: Door attached unit
