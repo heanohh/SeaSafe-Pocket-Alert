@@ -7,6 +7,11 @@ We made it based on Arduino Uno system.
 ![SeaSafePocketAlert1](https://github.com/user-attachments/assets/435e6848-2c3a-4cf4-b9a9-457374094098)
 ![SeaSafePocketAlert3](https://github.com/user-attachments/assets/7b76768b-193e-4f8c-ab5b-2980f9de04e2)
 
+# Tech Description
+https://youtu.be/MCq2YRlLqxw?feature=shared
+</br>
+[seasafepocketalertdescrip.pdf](https://github.com/user-attachments/files/19655854/seasafepocketalertdescrip.pdf)
+
 **Hardware1**
 
 ![main_hardware1](https://github.com/user-attachments/assets/27b79f2c-c140-407b-9446-b8bf66480b84)
