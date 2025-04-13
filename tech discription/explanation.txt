@@ -1,0 +1,38 @@
+
+1
+SeaSafe Pocket Alert detects air pockets when a ship capsizes, indicating their location with LED lights. It helps panicked people find safety near air pockets during ship flooding. Especially for small vessels with shorter golden time and frequent capsizing.
+
+2
+While major ship accidents have decreased, small vessel capsizing remains frequent. Fishing vessel accidents made up 76% of maritime accidents in the past five years in Korea. Despite this high rate, there are no commercial solutions. Small vessels need swift responses due to their shorter golden time. We wanted to save lives with a fast, independent power-operated, automated system
+Inspired by an article about a crew rescued thanks to air pockets, we created a device that combines the physical structure of sea buoys and roly-poly toys with an embedded system from commercial devices to detect and indicate air pockets.
+
+3
+This device has two components: a roly-poly shaped main unit (hardware1) and a door-attached light with a controller(hardware2). 
+
+The main unit is stored inside the wall or on a cabinet in rooms where air pockets typically form, attached to the string connected to the wall. Its sensors and modules are inactive until the ship capsizes. When the IMU sensor detects capsizing, the system activates, and a motor opens the lid protecting the ultrasonic sensor. As water fills the vessel, the ultrasonic sensor measures the distance from the ceiling to determine the height of the air pocket. If this distance remains stable for one minute and is over 0.15m, the device concludes an air pocket has formed. The main unit's LED light signals the air pocket's location, and it sends a 'Turn On' Bluetooth signal to the controller of the door-attached LED light. 
+
+The door-attached LED light then activates, making the air pocket's location easily visible even to those far away.
+
+
+4
+We chose the 9.77-ton standard fishing boat, prone to capsizing. Also assumed 
+the device is installed in the Crew's space, where air pockets typically form in small vessels.
+
+The main unit, designed as a roly-poly toy with a cone and hemisphere, maintains balance and buoyancy. Modules are stored in the lower part, creating a low center of gravity. It's connected and stored by the wall near the floor with a short string to prevent damage during capsizing. The material used is ABS, with transparent ABS for light-emitting areas.
+
+The internal system uses an Arduino Uno, with 5V and 12V batteries powering various modules. We sourced the modules from commercially available products, recorded their specifications, and calculated current consumption and battery life to ensure working properly, which were organized into charts.
+
+3D modeling was done using SolidWorks, Inventor, Rhino, and Keyshot, with simulations performed in Ansys. The control code and circuitry were designed using Fritzing and Arduino, All functioned without errors.
+
+Maintenance was considered. Due to the battery life calculated at 15 minutes for the door-attached light and 1 to 1.5 hours for the main unit, both components' design allow for battery replacement. Finally, wave patterns were incorporated for aesthetics.
+
+5
+In capsizing accidents, survivors typically waited for rescue in air pockets, except in cases able to quickly escape the vessel using life jackets, boats, or by damaging the hull. Using force to break the hull for escape is not easy due to strong currents and lack of physical strength. Additionally, life jackets can sometimes hinder movement. In these various scenarios, the SeaSafe Pocket Alert device offers the most accurate and unrestricted solution to increase survival rates during ship capsizing accidents. 
+
+A similar device utilizing air pockets is the air pocket generator, producing nitrogen and oxygen through a chemical reaction using sodium azide. However, causing a chemical reaction in an unprotected state, during a capsizing situation is dangerous. Also its effectiveness is uncertain, preventing widespread commercialization. In contrast, our SeaSafe Pocket Alert is small, lightweight, and has lower production, installation, and maintenance costs.
+
+6. 
+To ensure that the hardware of the air pocket device does not get damaged by unexpected external impacts, we need to consider various scenarios and run simulations to identify and improve weak points. We will also create a prototype to experimentally verify that the entire process, from detecting a capsize to signaling, works correctly. Also we'll explore ways to enhance the efficiency and longevity of the embedded modules.
+
+We aim to extend the device's use to larger ships like cruise liners. For these, we plan to add sound signals and install Bluetooth-enabled handles that emit light to help indicate air pocket locations and aid movement.
+
