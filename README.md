@@ -9,6 +9,7 @@ We made it based on Arduino Uno system.
 <img width="1000" height="700" alt="How" src="https://github.com/user-attachments/assets/5488963d-f057-46a8-a749-fad7fcfa8135" />
 
 **Working video**
+
 https://github.com/user-attachments/assets/db5c9e1c-fbaa-4a42-a73e-b6d8e827c6ed
 
 
